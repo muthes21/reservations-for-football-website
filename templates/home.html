@@ -331,7 +331,7 @@ text-decoration: underline;
 
 <h2>Login</h2>
 
-<form action="Login" method="post" name="form">
+<form action="/" method="post" name="form">
 
 <div class="input-box">
 
@@ -370,7 +370,7 @@ text-decoration: underline;
 <button type="submit" class="btn">Login</button>
 
 <div class="login-register">
-  <p>Don't have an account?<a href="RegisterHere.html" class="register-link"> Register</a></p>
+  <p>Don't have an account?<a href="{{ url_for( 'Register') }}" class="register-link"> Register</a></p>
 
 
 </div>

@@ -36,6 +36,18 @@ async = ["asgiref (>=3.2)"]
 dotenv = ["python-dotenv"]
 
 [[package]]
+name = "flask-login"
+version = "0.6.2"
+description = "User authentication and session management for Flask."
+category = "main"
+optional = false
+python-versions = ">=3.7"
+
+[package.dependencies]
+Flask = ">=1.0.4"
+Werkzeug = ">=1.0.1"
+
+[[package]]
 name = "itsdangerous"
 version = "2.1.2"
 description = "Safely pass data to untrusted environments and back."
@@ -82,12 +94,13 @@ watchdog = ["watchdog"]
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.10"
-content-hash = "20babc257a59ef5d9f1d8c4495e5c875e63508b9a500784f0be51367ce6e8359"
+content-hash = "680bac874f5ab6d9ff19dbf4e9b0727f838a08f0e712a3384295fc53577f3e73"
 
 [metadata.files]
 click = []
 colorama = []
 flask = []
+flask-login = []
 itsdangerous = []
 jinja2 = []
 markupsafe = []
