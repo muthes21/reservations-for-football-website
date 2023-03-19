@@ -8,12 +8,13 @@ def hello_user():
   if request.method == 'POST':
     user = request.form['uname']
     pwd = request.form['psd']
-    print(user, psd)
+    print(user, pwd)
   return render_template('home.html')
 
 
 @app.route("/Register")
 def Register():
+  
   
   return render_template('RegisterHere.html')
 
